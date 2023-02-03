@@ -1,0 +1,27 @@
+.heart {
+    background-color: antiquewhite;
+}
+
+.beat:hover .heart img {
+    animation: animation-heart 3s ease;
+}
+
+
+@keyframes animation-heart {
+    0%,
+    100% {        
+        transform: scale(0, 0);
+    }
+  
+    10% {
+        transform: scale(100%, 0);
+    } 
+  
+    60% {
+         transform: scale(30%, 0);
+    }
+  
+    80% {
+         transform: scale(-100%, 0);
+    }
+}
